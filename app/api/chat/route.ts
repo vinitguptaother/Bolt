@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
           'Authorization': `Bearer ${apiKey}`,
         };
         requestBody = {
-          model: 'llama-3-sonar-small-online',
+          model: 'sonar-small-online',
           messages: [
             {
               role: 'system',
